@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="classicmodels:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>classicmodels</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="classicmodels-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="classicmodels:war exploded" />
+    </root>
+  </artifact>
+</component>
